@@ -5,7 +5,7 @@ echo hello, nice to meet you what your name
 
 read varname 
 
-echo Its nice to meet you $varname, this is a program to install lamp and check the tree structer 
+echo Its nice to meet you $varname, this is a program to install lamp and check the dictrory structer plus to check to see a programeis installed of not 
 #LAMP install
 for i in {3..1}
 do
