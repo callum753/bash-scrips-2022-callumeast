@@ -12,6 +12,7 @@ do
    echo "installing LAMP techonagle in: $1"
    sleep 1
 done 
+#will loop until it gets down to one then will ask user for the root paasword and install LAMP installed 
 
 
 #LAMP techonagle 
@@ -30,6 +31,7 @@ apt install tree
 cd 
 cd/home 
 tree 
+#will check the tree dicrory 
 
 #if else to check if a program is installed 
 while true 
@@ -41,5 +43,9 @@ else
 echo "that program is not installed or spelled wrong "
 fi 
 done 
-
+# the  Read will ask the user to input what programe they looking for 
+# then line 40 will check it against the ID of the program that the user enterd 
+# next line will output the first echo if the programm is installed 
+# then if its not installed the program will output the 2nd echo 
+# then the program will finish and exit 
 
