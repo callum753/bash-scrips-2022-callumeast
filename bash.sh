@@ -31,5 +31,15 @@ cd
 cd/home 
 tree 
 
+#if else to check if a program is installed 
+while true 
+do 
+read -p "please enter to name of the programe you want to see if installed"
+if pidof -qx "$REPLY"; then 
+echo "that program is installed "
+else 
+echo "that program is not installed or spelled wrong "
+fi 
+done 
 
 
